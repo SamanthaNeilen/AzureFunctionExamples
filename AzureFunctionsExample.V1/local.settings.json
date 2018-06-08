@@ -1,0 +1,19 @@
+//Settings below are to connect to the local Azure Store Emulator (https://docs.microsoft.com/en-us/azure/storage/common/storage-configure-connection-string)
+//See the readme on how to find the settings to your own Azure storage account
+//emailtemplate.html in root of project needs to be uploaded to emailtemplates container in blob storage account with the given BlobStorageUri
+//OrderDBConnection expects database as provided in Database project in solution
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsDashboard": "UseDevelopmentStorage=true",
+    "OrderDbConnection": "Server=.\\SQLEXPRESS;Database=OrderDb;Integrated Security=True;",
+    "SendGridApiKey": "YOUR_KEY_HERE",
+    "FromEmail": "FROM_EMAIL_HERE",
+    "BlobStorageUri": "http://127.0.0.1:10000/devstoreaccount1",
+    "BlobStorageAccount": "devstoreaccount1",
+    "BlobStorageKey": "Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw==",
+    "EmailTemplateContainerName": "emailtemplates",
+    "EmailTemplateBlobName": "emailtemplate.html"
+  }
+}
