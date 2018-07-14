@@ -13,19 +13,25 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Database", "Database", "{65
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction_Precompiled", "AzureFunction_Precompiled", "{2A4306F2-BA93-4101-9C8C-8B56A24982C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsExample.V1", "AzureFunctionsExample.V1\AzureFunctionsExample.V1.csproj", "{07E09DA6-EA9D-4491-B08F-0AF6960F3988}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionsExample.V1", "AzureFunctionsExample.V1\AzureFunctionsExample.V1.csproj", "{07E09DA6-EA9D-4491-B08F-0AF6960F3988}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsExample.V2", "AzureFunctionsExample.V2\AzureFunctionsExample.V2.csproj", "{4376F631-9416-4026-A535-90D67512C7AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionsExample.V2", "AzureFunctionsExample.V2\AzureFunctionsExample.V2.csproj", "{4376F631-9416-4026-A535-90D67512C7AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsExample.Shared", "AzureFunctionsExample.Shared\AzureFunctionsExample.Shared.csproj", "{62007A95-CDA1-4291-836B-ECD09981D2EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionsExample.Shared", "AzureFunctionsExample.Shared\AzureFunctionsExample.Shared.csproj", "{62007A95-CDA1-4291-836B-ECD09981D2EB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionExample.ResourceAccess", "AzureFunctionExample.ResourceAccess\AzureFunctionExample.ResourceAccess.csproj", "{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctionExample.ResourceAccess", "AzureFunctionExample.ResourceAccess\AzureFunctionExample.ResourceAccess.csproj", "{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26908998-FFFF-4BEF-A44C-648830F36F6A}"
 	ProjectSection(SolutionItems) = preProject
 		emailtemplate.html = emailtemplate.html
 		README.md = README.md
 	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunction_CsharpScript", "AzureFunction_CsharpScript", "{7FC80B3F-C060-4930-B0E5-93FD51175024}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsExample.ScriptV1", "AzureFunctionsExample.ScriptV1\AzureFunctionsExample.ScriptV1.csproj", "{432B5B48-BF12-4AE8-8573-8DE366B74FE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionsExample.ScriptResources", "AzureFunctionsExample.ScriptResources\AzureFunctionsExample.ScriptResources.csproj", "{D3993A69-789F-4C47-B201-248C8B731AD9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -59,6 +65,14 @@ Global
 		{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432B5B48-BF12-4AE8-8573-8DE366B74FE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432B5B48-BF12-4AE8-8573-8DE366B74FE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432B5B48-BF12-4AE8-8573-8DE366B74FE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432B5B48-BF12-4AE8-8573-8DE366B74FE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3993A69-789F-4C47-B201-248C8B731AD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3993A69-789F-4C47-B201-248C8B731AD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3993A69-789F-4C47-B201-248C8B731AD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3993A69-789F-4C47-B201-248C8B731AD9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -70,6 +84,8 @@ Global
 		{4376F631-9416-4026-A535-90D67512C7AB} = {2A4306F2-BA93-4101-9C8C-8B56A24982C3}
 		{62007A95-CDA1-4291-836B-ECD09981D2EB} = {2A4306F2-BA93-4101-9C8C-8B56A24982C3}
 		{D63BBDB5-EEF8-485B-A749-2F9DFD5F9867} = {2A4306F2-BA93-4101-9C8C-8B56A24982C3}
+		{432B5B48-BF12-4AE8-8573-8DE366B74FE2} = {7FC80B3F-C060-4930-B0E5-93FD51175024}
+		{D3993A69-789F-4C47-B201-248C8B731AD9} = {7FC80B3F-C060-4930-B0E5-93FD51175024}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE3390ED-2638-4058-8E25-ECC39349FE0F}

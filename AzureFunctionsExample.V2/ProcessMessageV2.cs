@@ -20,7 +20,7 @@ namespace AzureFunctionsExample.V2
                 Environment.GetEnvironmentVariable("BlobStorageKey")
                 );
 
-            var order = dbContext.Order.Include(o => o.Person).FirstOrDefault(o => o.Id == myQueueItem.Order && o.PersonID == myQueueItem.Order);
+            var order = dbContext.Order.Include(o => o.Person).FirstOrDefault(o => o.Id == myQueueItem.Order && o.PersonID == myQueueItem.Person);
 
             var mailData = new MailData
             {
